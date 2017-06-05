@@ -1,5 +1,5 @@
 # What is this repository?
-In 5/17 researchers found that HP included a Conexant Audio Driver with keylogging functionality on various laptop models between 2015 and then. The program has several artifacts, the existence of `C:\Windows\System32\MicTray.exe`, `C:\Windows\System32\MicTray64.exe`, and the keylog, if present, at `C:\Users\Public\MicTray.log`. This repository is a tool which detects the presence of the software or logfile on an individual machine or accross an ActiveDirectory Domain.
+On 5/17 researchers found that HP included a Conexant Audio Driver with keylogging functionality on various laptop models between 2015 and then. The program has several artifacts, the existence of `C:\Windows\System32\MicTray.exe`, `C:\Windows\System32\MicTray64.exe`, and the keylog, if present, at `C:\Users\Public\MicTray.log`. This repository is a tool which detects the presence of the software or logfile on an individual machine or accross an ActiveDirectory Domain.
 
 # About MicTray.exe
 Technical Details about this issue can be found here: https://www.modzero.ch/advisories/MZ-17-01-Conexant-Keylogger.txt 
